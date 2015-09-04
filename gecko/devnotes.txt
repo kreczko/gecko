@@ -1,0 +1,9 @@
+console scripts can be defined in setup.py with
+entry_points={
+        'console_scripts': [
+            'plot = gecko.plot:main',
+            'map = gecko.map:main',
+            'filter = gecko.filter:main',
+            'reduce = gecko.reduce:main',
+            ]
+        },

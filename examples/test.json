@@ -1,0 +1,2829 @@
+{
+    "class": "FileInfo", 
+    "name": "/storage/TopQuarkGroup/TTJets_Madgraph_PU20bx25_001.root", 
+    "size": 4385394497, 
+    "tree_size": 9519579849, 
+    "tree_zipped_bytes": 4383776467, 
+    "trees": {
+        "tree": {
+            "class": "<class 'gecko.utils.ntuple.TreeInfo'>", 
+            "collections": {
+                "Electrons": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Electrons.BeamSpotDXY": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.BeamSpotDXY", 
+                            "size": 25084456, 
+                            "zipped_bytes": 15572884
+                        }, 
+                        "Electrons.BeamSpotDXYError": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.BeamSpotDXYError", 
+                            "size": 25085221, 
+                            "zipped_bytes": 3082151
+                        }, 
+                        "Electrons.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Charge", 
+                            "size": 18830953, 
+                            "zipped_bytes": 3617392
+                        }, 
+                        "Electrons.ConvRadius": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.ConvRadius", 
+                            "size": 25084303, 
+                            "zipped_bytes": 10969403
+                        }, 
+                        "Electrons.DCotTheta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.DCotTheta", 
+                            "size": 25084150, 
+                            "zipped_bytes": 10894733
+                        }, 
+                        "Electrons.DeltaEtaTrkSC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.DeltaEtaTrkSC", 
+                            "size": 25084762, 
+                            "zipped_bytes": 9618826
+                        }, 
+                        "Electrons.DeltaPhiTrkSC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.DeltaPhiTrkSC", 
+                            "size": 25084762, 
+                            "zipped_bytes": 10053039
+                        }, 
+                        "Electrons.Dist": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Dist", 
+                            "size": 25083385, 
+                            "zipped_bytes": 10856869
+                        }, 
+                        "Electrons.ESuperClusterOverP": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.ESuperClusterOverP", 
+                            "size": 25085527, 
+                            "zipped_bytes": 10699080
+                        }, 
+                        "Electrons.EcalIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.EcalIso03", 
+                            "size": 25084150, 
+                            "zipped_bytes": 9030993
+                        }, 
+                        "Electrons.EcalIso04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.EcalIso04", 
+                            "size": 25084150, 
+                            "zipped_bytes": 8998465
+                        }, 
+                        "Electrons.EcalIsoHeep03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.EcalIsoHeep03", 
+                            "size": 25084762, 
+                            "zipped_bytes": 9031784
+                        }, 
+                        "Electrons.EcalIsoHeep04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.EcalIsoHeep04", 
+                            "size": 25084762, 
+                            "zipped_bytes": 8999354
+                        }, 
+                        "Electrons.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Energy", 
+                            "size": 25083691, 
+                            "zipped_bytes": 15429473
+                        }, 
+                        "Electrons.Fbrem": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Fbrem", 
+                            "size": 25083538, 
+                            "zipped_bytes": 8944370
+                        }, 
+                        "Electrons.HadronicOverEM": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HadronicOverEM", 
+                            "size": 25084915, 
+                            "zipped_bytes": 7458856
+                        }, 
+                        "Electrons.HasMatchedConvPhot": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HasMatchedConvPhot", 
+                            "size": 14132833, 
+                            "zipped_bytes": 3145957
+                        }, 
+                        "Electrons.HcalIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HcalIso03", 
+                            "size": 25084150, 
+                            "zipped_bytes": 8460393
+                        }, 
+                        "Electrons.HcalIso04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HcalIso04", 
+                            "size": 25084150, 
+                            "zipped_bytes": 8777303
+                        }, 
+                        "Electrons.HcalIsoD1Heep03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HcalIsoD1Heep03", 
+                            "size": 25085068, 
+                            "zipped_bytes": 8456227
+                        }, 
+                        "Electrons.HcalIsoD1Heep04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HcalIsoD1Heep04", 
+                            "size": 25085068, 
+                            "zipped_bytes": 8777369
+                        }, 
+                        "Electrons.HcalIsoD2Heep03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HcalIsoD2Heep03", 
+                            "size": 25085068, 
+                            "zipped_bytes": 4579655
+                        }, 
+                        "Electrons.HcalIsoD2Heep04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.HcalIsoD2Heep04", 
+                            "size": 25085068, 
+                            "zipped_bytes": 4954468
+                        }, 
+                        "Electrons.MissingHits": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.MissingHits", 
+                            "size": 18832448, 
+                            "zipped_bytes": 3038910
+                        }, 
+                        "Electrons.NumberOfBrems": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.NumberOfBrems", 
+                            "size": 18833046, 
+                            "zipped_bytes": 4318508
+                        }, 
+                        "Electrons.PFRelIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PFRelIso03", 
+                            "size": 25084303, 
+                            "zipped_bytes": 12303997
+                        }, 
+                        "Electrons.PFRelIso03DeltaBeta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PFRelIso03DeltaBeta", 
+                            "size": 25085680, 
+                            "zipped_bytes": 11692875
+                        }, 
+                        "Electrons.PFRelIso04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PFRelIso04", 
+                            "size": 25084303, 
+                            "zipped_bytes": 3081629
+                        }, 
+                        "Electrons.PFRelIso04DeltaBeta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PFRelIso04DeltaBeta", 
+                            "size": 25085680, 
+                            "zipped_bytes": 3083549
+                        }, 
+                        "Electrons.PrimaryVertexDXY": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PrimaryVertexDXY", 
+                            "size": 25085221, 
+                            "zipped_bytes": 15451269
+                        }, 
+                        "Electrons.PrimaryVertexDXYCorr": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PrimaryVertexDXYCorr", 
+                            "size": 25085833, 
+                            "zipped_bytes": 15368431
+                        }, 
+                        "Electrons.PrimaryVertexDXYError": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.PrimaryVertexDXYError", 
+                            "size": 25085986, 
+                            "zipped_bytes": 15402504
+                        }, 
+                        "Electrons.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Px", 
+                            "size": 25083079, 
+                            "zipped_bytes": 15793094
+                        }, 
+                        "Electrons.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Py", 
+                            "size": 25083079, 
+                            "zipped_bytes": 15794783
+                        }, 
+                        "Electrons.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.Pz", 
+                            "size": 25083079, 
+                            "zipped_bytes": 15782812
+                        }, 
+                        "Electrons.RelIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.RelIso03", 
+                            "size": 25083997, 
+                            "zipped_bytes": 12586109
+                        }, 
+                        "Electrons.RelIso04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.RelIso04", 
+                            "size": 25083997, 
+                            "zipped_bytes": 12593331
+                        }, 
+                        "Electrons.SCEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SCEnergy", 
+                            "size": 25083997, 
+                            "zipped_bytes": 15431824
+                        }, 
+                        "Electrons.SCEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SCEta", 
+                            "size": 25083538, 
+                            "zipped_bytes": 15719728
+                        }, 
+                        "Electrons.SCP": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SCP", 
+                            "size": 25083232, 
+                            "zipped_bytes": 15417062
+                        }, 
+                        "Electrons.SCPhi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SCPhi", 
+                            "size": 25083538, 
+                            "zipped_bytes": 15780804
+                        }, 
+                        "Electrons.SCPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SCPt", 
+                            "size": 25083385, 
+                            "zipped_bytes": 15470103
+                        }, 
+                        "Electrons.SCRawEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SCRawEnergy", 
+                            "size": 25084456, 
+                            "zipped_bytes": 14126733
+                        }, 
+                        "Electrons.SigmaEtaEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SigmaEtaEta", 
+                            "size": 25084456, 
+                            "zipped_bytes": 8694748
+                        }, 
+                        "Electrons.SigmaIEtaIEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.SigmaIEtaIEta", 
+                            "size": 25084762, 
+                            "zipped_bytes": 8702868
+                        }, 
+                        "Electrons.TrkIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.TrkIso03", 
+                            "size": 25083997, 
+                            "zipped_bytes": 7586781
+                        }, 
+                        "Electrons.TrkIso04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.TrkIso04", 
+                            "size": 25083997, 
+                            "zipped_bytes": 7919185
+                        }, 
+                        "Electrons.TrkIsoHeep03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.TrkIsoHeep03", 
+                            "size": 25084609, 
+                            "zipped_bytes": 7587310
+                        }, 
+                        "Electrons.TrkIsoHeep04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.TrkIsoHeep04", 
+                            "size": 25084609, 
+                            "zipped_bytes": 7919826
+                        }, 
+                        "Electrons.VtxDistZ": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.VtxDistZ", 
+                            "size": 25083997, 
+                            "zipped_bytes": 15687281
+                        }, 
+                        "Electrons.VtxDistZCorr": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.VtxDistZCorr", 
+                            "size": 25084609, 
+                            "zipped_bytes": 15811601
+                        }, 
+                        "Electrons.VtxIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.VtxIndex", 
+                            "size": 18831551, 
+                            "zipped_bytes": 3706980
+                        }, 
+                        "Electrons.eSeedClusterOverPout": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.eSeedClusterOverPout", 
+                            "size": 25085833, 
+                            "zipped_bytes": 10835268
+                        }, 
+                        "Electrons.mvaNonTrigV0": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.mvaNonTrigV0", 
+                            "size": 12580651, 
+                            "zipped_bytes": 2000202
+                        }, 
+                        "Electrons.mvaTrigV0": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.mvaTrigV0", 
+                            "size": 12579322, 
+                            "zipped_bytes": 2005029
+                        }, 
+                        "Electrons.passConversionVeto": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.passConversionVeto", 
+                            "size": 14132833, 
+                            "zipped_bytes": 3178236
+                        }, 
+                        "Electrons.shFracInnerHits": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.shFracInnerHits", 
+                            "size": 25085068, 
+                            "zipped_bytes": 3883726
+                        }, 
+                        "Electrons.sumChargedHadronPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumChargedHadronPt03", 
+                            "size": 25085833, 
+                            "zipped_bytes": 8149359
+                        }, 
+                        "Electrons.sumChargedHadronPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumChargedHadronPt04", 
+                            "size": 25085833, 
+                            "zipped_bytes": 3083199
+                        }, 
+                        "Electrons.sumNeutralHadronPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumNeutralHadronPt03", 
+                            "size": 25085833, 
+                            "zipped_bytes": 5674786
+                        }, 
+                        "Electrons.sumNeutralHadronPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumNeutralHadronPt04", 
+                            "size": 25085833, 
+                            "zipped_bytes": 3083199
+                        }, 
+                        "Electrons.sumPUPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumPUPt03", 
+                            "size": 25084150, 
+                            "zipped_bytes": 8914252
+                        }, 
+                        "Electrons.sumPUPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumPUPt04", 
+                            "size": 25084150, 
+                            "zipped_bytes": 3082037
+                        }, 
+                        "Electrons.sumPhotonPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumPhotonPt03", 
+                            "size": 25084762, 
+                            "zipped_bytes": 8666755
+                        }, 
+                        "Electrons.sumPhotonPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons", 
+                            "name": "Electrons.sumPhotonPt04", 
+                            "size": 25084762, 
+                            "zipped_bytes": 3082647
+                        }
+                    }, 
+                    "name": "Electrons", 
+                    "size": 1558572219, 
+                    "zipped_bytes": 597902374
+                }, 
+                "Electrons.ecalDrivenMomentum": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Electrons.ecalDrivenMomentum.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons.ecalDrivenMomentum", 
+                            "name": "Electrons.ecalDrivenMomentum.Px", 
+                            "size": 25085986, 
+                            "zipped_bytes": 15800466
+                        }, 
+                        "Electrons.ecalDrivenMomentum.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons.ecalDrivenMomentum", 
+                            "name": "Electrons.ecalDrivenMomentum.Py", 
+                            "size": 25085986, 
+                            "zipped_bytes": 15802174
+                        }, 
+                        "Electrons.ecalDrivenMomentum.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Electrons.ecalDrivenMomentum", 
+                            "name": "Electrons.ecalDrivenMomentum.Pz", 
+                            "size": 25085986, 
+                            "zipped_bytes": 15790223
+                        }
+                    }, 
+                    "name": "Electrons.ecalDrivenMomentum", 
+                    "size": 75257958, 
+                    "zipped_bytes": 47392863
+                }, 
+                "Event": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Event.Bunch": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.Bunch", 
+                            "size": 3680166, 
+                            "zipped_bytes": 114491
+                        }, 
+                        "Event.LumiSection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.LumiSection", 
+                            "size": 3686322, 
+                            "zipped_bytes": 434214
+                        }, 
+                        "Event.NRecoVertices": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.NRecoVertices", 
+                            "size": 3688374, 
+                            "zipped_bytes": 894485
+                        }, 
+                        "Event.Number": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.Number", 
+                            "size": 3681192, 
+                            "zipped_bytes": 1748079
+                        }, 
+                        "Event.NumberOfTrueInteractions": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.NumberOfTrueInteractions", 
+                            "size": 12584195, 
+                            "zipped_bytes": 2003871
+                        }, 
+                        "Event.PDFWeights": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.PDFWeights", 
+                            "size": 12577993, 
+                            "zipped_bytes": 1999894
+                        }, 
+                        "Event.PUWeight": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.PUWeight", 
+                            "size": 7204162, 
+                            "zipped_bytes": 56764
+                        }, 
+                        "Event.PileUpInteractions": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.PileUpInteractions", 
+                            "size": 12581537, 
+                            "zipped_bytes": 2001809
+                        }, 
+                        "Event.PileUpOriginBX": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.PileUpOriginBX", 
+                            "size": 12579765, 
+                            "zipped_bytes": 2000635
+                        }, 
+                        "Event.ProcessID": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.ProcessID", 
+                            "size": 3684270, 
+                            "zipped_bytes": 123396
+                        }, 
+                        "Event.PtHat": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.PtHat", 
+                            "size": 7202830, 
+                            "zipped_bytes": 55444
+                        }, 
+                        "Event.Run": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.Run", 
+                            "size": 3678114, 
+                            "zipped_bytes": 115512
+                        }, 
+                        "Event.SingleLeptonEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleLeptonEnergy", 
+                            "size": 7208602, 
+                            "zipped_bytes": 6513711
+                        }, 
+                        "Event.SingleLeptonPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleLeptonPt", 
+                            "size": 7206826, 
+                            "zipped_bytes": 3960420
+                        }, 
+                        "Event.SingleLeptonPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleLeptonPx", 
+                            "size": 7206826, 
+                            "zipped_bytes": 6620447
+                        }, 
+                        "Event.SingleLeptonPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleLeptonPy", 
+                            "size": 7206826, 
+                            "zipped_bytes": 6619216
+                        }, 
+                        "Event.SingleLeptonPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleLeptonPz", 
+                            "size": 7206826, 
+                            "zipped_bytes": 59404
+                        }, 
+                        "Event.SingleNeutrinoEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleNeutrinoEnergy", 
+                            "size": 7209490, 
+                            "zipped_bytes": 6516195
+                        }, 
+                        "Event.SingleNeutrinoPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleNeutrinoPt", 
+                            "size": 7207714, 
+                            "zipped_bytes": 3955809
+                        }, 
+                        "Event.SingleNeutrinoPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleNeutrinoPx", 
+                            "size": 7207714, 
+                            "zipped_bytes": 6619276
+                        }, 
+                        "Event.SingleNeutrinoPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleNeutrinoPy", 
+                            "size": 7207714, 
+                            "zipped_bytes": 6617082
+                        }, 
+                        "Event.SingleNeutrinoPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.SingleNeutrinoPz", 
+                            "size": 7207714, 
+                            "zipped_bytes": 60140
+                        }, 
+                        "Event.Time": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.Time", 
+                            "size": 7202386, 
+                            "zipped_bytes": 2600735
+                        }, 
+                        "Event.TtbarDecay": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.TtbarDecay", 
+                            "size": 3685296, 
+                            "zipped_bytes": 446644
+                        }, 
+                        "Event.hadronicBEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicBEnergy", 
+                            "size": 7207270, 
+                            "zipped_bytes": 6514676
+                        }, 
+                        "Event.hadronicBGenJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicBGenJetIndex", 
+                            "size": 3695556, 
+                            "zipped_bytes": 709444
+                        }, 
+                        "Event.hadronicBPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicBPt", 
+                            "size": 7205494, 
+                            "zipped_bytes": 3938915
+                        }, 
+                        "Event.hadronicBPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicBPx", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6610947
+                        }, 
+                        "Event.hadronicBPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicBPy", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6610980
+                        }, 
+                        "Event.hadronicBPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicBPz", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6614501
+                        }, 
+                        "Event.hadronicDecayQuarkBarGenJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicDecayQuarkBarGenJetIndex", 
+                            "size": 3707868, 
+                            "zipped_bytes": 713310
+                        }, 
+                        "Event.hadronicDecayQuarkGenJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicDecayQuarkGenJetIndex", 
+                            "size": 3704790, 
+                            "zipped_bytes": 710178
+                        }, 
+                        "Event.hadronicTopEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicTopEnergy", 
+                            "size": 7208158, 
+                            "zipped_bytes": 6499856
+                        }, 
+                        "Event.hadronicTopPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicTopPt", 
+                            "size": 7206382, 
+                            "zipped_bytes": 3951693
+                        }, 
+                        "Event.hadronicTopPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicTopPx", 
+                            "size": 7206382, 
+                            "zipped_bytes": 6611936
+                        }, 
+                        "Event.hadronicTopPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicTopPy", 
+                            "size": 7206382, 
+                            "zipped_bytes": 6612025
+                        }, 
+                        "Event.hadronicTopPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicTopPz", 
+                            "size": 7206382, 
+                            "zipped_bytes": 6612468
+                        }, 
+                        "Event.hadronicWEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicWEnergy", 
+                            "size": 7207270, 
+                            "zipped_bytes": 6508282
+                        }, 
+                        "Event.hadronicWPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicWPt", 
+                            "size": 7205494, 
+                            "zipped_bytes": 3952806
+                        }, 
+                        "Event.hadronicWPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicWPx", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6612437
+                        }, 
+                        "Event.hadronicWPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicWPy", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6612271
+                        }, 
+                        "Event.hadronicWPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicWPz", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6612586
+                        }, 
+                        "Event.hadronicdecayquarkEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkEnergy", 
+                            "size": 7211266, 
+                            "zipped_bytes": 6517057
+                        }, 
+                        "Event.hadronicdecayquarkPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkPt", 
+                            "size": 7209490, 
+                            "zipped_bytes": 3961286
+                        }, 
+                        "Event.hadronicdecayquarkPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkPx", 
+                            "size": 7209490, 
+                            "zipped_bytes": 6620695
+                        }, 
+                        "Event.hadronicdecayquarkPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkPy", 
+                            "size": 7209490, 
+                            "zipped_bytes": 6620636
+                        }, 
+                        "Event.hadronicdecayquarkPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkPz", 
+                            "size": 7209490, 
+                            "zipped_bytes": 6621861
+                        }, 
+                        "Event.hadronicdecayquarkbarEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkbarEnergy", 
+                            "size": 7212598, 
+                            "zipped_bytes": 6518323
+                        }, 
+                        "Event.hadronicdecayquarkbarPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkbarPt", 
+                            "size": 7210822, 
+                            "zipped_bytes": 3962636
+                        }, 
+                        "Event.hadronicdecayquarkbarPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkbarPx", 
+                            "size": 7210822, 
+                            "zipped_bytes": 6621883
+                        }, 
+                        "Event.hadronicdecayquarkbarPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkbarPy", 
+                            "size": 7210822, 
+                            "zipped_bytes": 6621644
+                        }, 
+                        "Event.hadronicdecayquarkbarPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.hadronicdecayquarkbarPz", 
+                            "size": 7210822, 
+                            "zipped_bytes": 6623035
+                        }, 
+                        "Event.isData": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.isData", 
+                            "size": 1054233, 
+                            "zipped_bytes": 164992
+                        }, 
+                        "Event.leptonicBEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicBEnergy", 
+                            "size": 7207270, 
+                            "zipped_bytes": 6514736
+                        }, 
+                        "Event.leptonicBGenJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicBGenJetIndex", 
+                            "size": 3695556, 
+                            "zipped_bytes": 709134
+                        }, 
+                        "Event.leptonicBPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicBPt", 
+                            "size": 7205494, 
+                            "zipped_bytes": 3938504
+                        }, 
+                        "Event.leptonicBPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicBPx", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6610800
+                        }, 
+                        "Event.leptonicBPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicBPy", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6610618
+                        }, 
+                        "Event.leptonicBPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicBPz", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6614717
+                        }, 
+                        "Event.leptonicTopEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicTopEnergy", 
+                            "size": 7208158, 
+                            "zipped_bytes": 6500149
+                        }, 
+                        "Event.leptonicTopPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicTopPt", 
+                            "size": 7206382, 
+                            "zipped_bytes": 3952911
+                        }, 
+                        "Event.leptonicTopPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicTopPx", 
+                            "size": 7206382, 
+                            "zipped_bytes": 6612477
+                        }, 
+                        "Event.leptonicTopPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicTopPy", 
+                            "size": 7206382, 
+                            "zipped_bytes": 6611954
+                        }, 
+                        "Event.leptonicTopPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicTopPz", 
+                            "size": 7206382, 
+                            "zipped_bytes": 6612450
+                        }, 
+                        "Event.leptonicWEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicWEnergy", 
+                            "size": 7207270, 
+                            "zipped_bytes": 6508595
+                        }, 
+                        "Event.leptonicWPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicWPt", 
+                            "size": 7205494, 
+                            "zipped_bytes": 3952441
+                        }, 
+                        "Event.leptonicWPx": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicWPx", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6611741
+                        }, 
+                        "Event.leptonicWPy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicWPy", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6612046
+                        }, 
+                        "Event.leptonicWPz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Event", 
+                            "name": "Event.leptonicWPz", 
+                            "size": 7205494, 
+                            "zipped_bytes": 6612591
+                        }
+                    }, 
+                    "name": "Event", 
+                    "size": 473940325, 
+                    "zipped_bytes": 307586896
+                }, 
+                "GenJet": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "GenJet.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.Charge", 
+                            "size": 52991860, 
+                            "zipped_bytes": 3420787
+                        }, 
+                        "GenJet.EMF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.EMF", 
+                            "size": 52990966, 
+                            "zipped_bytes": 40867403
+                        }, 
+                        "GenJet.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.Energy", 
+                            "size": 52991860, 
+                            "zipped_bytes": 42165001
+                        }, 
+                        "GenJet.HADF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.HADF", 
+                            "size": 52991264, 
+                            "zipped_bytes": 40395368
+                        }, 
+                        "GenJet.Mass": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.Mass", 
+                            "size": 52991264, 
+                            "zipped_bytes": 26401172
+                        }, 
+                        "GenJet.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.Px", 
+                            "size": 52990668, 
+                            "zipped_bytes": 42802574
+                        }, 
+                        "GenJet.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.Py", 
+                            "size": 52990668, 
+                            "zipped_bytes": 42802114
+                        }, 
+                        "GenJet.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenJet", 
+                            "name": "GenJet.Pz", 
+                            "size": 52990668, 
+                            "zipped_bytes": 42898309
+                        }
+                    }, 
+                    "name": "GenJet", 
+                    "size": 423929218, 
+                    "zipped_bytes": 281752728
+                }, 
+                "GenMET": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "GenMET.ET": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenMET", 
+                            "name": "GenMET.ET", 
+                            "size": 7201942, 
+                            "zipped_bytes": 3917332
+                        }, 
+                        "GenMET.Ex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenMET", 
+                            "name": "GenMET.Ex", 
+                            "size": 7201942, 
+                            "zipped_bytes": 6918189
+                        }, 
+                        "GenMET.Ey": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenMET", 
+                            "name": "GenMET.Ey", 
+                            "size": 7201942, 
+                            "zipped_bytes": 6917693
+                        }, 
+                        "GenMET.Phi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "GenMET", 
+                            "name": "GenMET.Phi", 
+                            "size": 7202386, 
+                            "zipped_bytes": 4180385
+                        }
+                    }, 
+                    "name": "GenMET", 
+                    "size": 28808212, 
+                    "zipped_bytes": 21933599
+                }, 
+                "HLTEle32eta2p1WP85Gsf": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "HLTEle32eta2p1WP85Gsf.Fired": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85Gsf", 
+                            "name": "HLTEle32eta2p1WP85Gsf.Fired", 
+                            "size": 1078383, 
+                            "zipped_bytes": 335887
+                        }, 
+                        "HLTEle32eta2p1WP85Gsf.toEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85Gsf", 
+                            "name": "HLTEle32eta2p1WP85Gsf.toEnergy", 
+                            "size": 14022491, 
+                            "zipped_bytes": 4204543
+                        }, 
+                        "HLTEle32eta2p1WP85Gsf.toEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85Gsf", 
+                            "name": "HLTEle32eta2p1WP85Gsf.toEta", 
+                            "size": 13293446, 
+                            "zipped_bytes": 3490118
+                        }, 
+                        "HLTEle32eta2p1WP85Gsf.toPhi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85Gsf", 
+                            "name": "HLTEle32eta2p1WP85Gsf.toPhi", 
+                            "size": 13293446, 
+                            "zipped_bytes": 3488748
+                        }, 
+                        "HLTEle32eta2p1WP85Gsf.toPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85Gsf", 
+                            "name": "HLTEle32eta2p1WP85Gsf.toPt", 
+                            "size": 13293147, 
+                            "zipped_bytes": 3416261
+                        }
+                    }, 
+                    "name": "HLTEle32eta2p1WP85Gsf", 
+                    "size": 54980913, 
+                    "zipped_bytes": 14935557
+                }, 
+                "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.Fired": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV", 
+                            "name": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.Fired", 
+                            "size": 1132038, 
+                            "zipped_bytes": 371094
+                        }, 
+                        "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV", 
+                            "name": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toEnergy", 
+                            "size": 14008026, 
+                            "zipped_bytes": 4171341
+                        }, 
+                        "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV", 
+                            "name": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toEta", 
+                            "size": 13289353, 
+                            "zipped_bytes": 3451337
+                        }, 
+                        "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toPhi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV", 
+                            "name": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toPhi", 
+                            "size": 13289353, 
+                            "zipped_bytes": 3449509
+                        }, 
+                        "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV", 
+                            "name": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV.toPt", 
+                            "size": 13289054, 
+                            "zipped_bytes": 3404520
+                        }
+                    }, 
+                    "name": "HLTEle32eta2p1WP85GsfCentralPFJet30BTagCSV", 
+                    "size": 55007824, 
+                    "zipped_bytes": 14847801
+                }, 
+                "HLTEle32eta2p1WP85GsfTriCentralPFJet40": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet40.Fired": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet40", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet40.Fired", 
+                            "size": 1125010, 
+                            "zipped_bytes": 360526
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet40", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toEnergy", 
+                            "size": 16433990, 
+                            "zipped_bytes": 6531778
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet40", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toEta", 
+                            "size": 14501737, 
+                            "zipped_bytes": 4738684
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toPhi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet40", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toPhi", 
+                            "size": 14501737, 
+                            "zipped_bytes": 4733204
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet40", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet40.toPt", 
+                            "size": 14501438, 
+                            "zipped_bytes": 4618580
+                        }
+                    }, 
+                    "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet40", 
+                    "size": 61063912, 
+                    "zipped_bytes": 20982772
+                }, 
+                "HLTEle32eta2p1WP85GsfTriCentralPFJet605035": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.Fired": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.Fired", 
+                            "size": 1132038, 
+                            "zipped_bytes": 368972
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toEnergy", 
+                            "size": 15213826, 
+                            "zipped_bytes": 5379669
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toEta", 
+                            "size": 13892253, 
+                            "zipped_bytes": 4132334
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toPhi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toPhi", 
+                            "size": 13892253, 
+                            "zipped_bytes": 4126876
+                        }, 
+                        "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035", 
+                            "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035.toPt", 
+                            "size": 13891954, 
+                            "zipped_bytes": 4057978
+                        }
+                    }, 
+                    "name": "HLTEle32eta2p1WP85GsfTriCentralPFJet605035", 
+                    "size": 58022324, 
+                    "zipped_bytes": 18065829
+                }, 
+                "HLTIsoMu24eta2p1IterTrk02": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "HLTIsoMu24eta2p1IterTrk02.Fired": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTIsoMu24eta2p1IterTrk02", 
+                            "name": "HLTIsoMu24eta2p1IterTrk02.Fired", 
+                            "size": 1084823, 
+                            "zipped_bytes": 344047
+                        }, 
+                        "HLTIsoMu24eta2p1IterTrk02.toEnergy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTIsoMu24eta2p1IterTrk02", 
+                            "name": "HLTIsoMu24eta2p1IterTrk02.toEnergy", 
+                            "size": 14605511, 
+                            "zipped_bytes": 4874609
+                        }, 
+                        "HLTIsoMu24eta2p1IterTrk02.toEta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTIsoMu24eta2p1IterTrk02", 
+                            "name": "HLTIsoMu24eta2p1IterTrk02.toEta", 
+                            "size": 13585554, 
+                            "zipped_bytes": 3875468
+                        }, 
+                        "HLTIsoMu24eta2p1IterTrk02.toPhi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTIsoMu24eta2p1IterTrk02", 
+                            "name": "HLTIsoMu24eta2p1IterTrk02.toPhi", 
+                            "size": 13585554, 
+                            "zipped_bytes": 3870940
+                        }, 
+                        "HLTIsoMu24eta2p1IterTrk02.toPt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "HLTIsoMu24eta2p1IterTrk02", 
+                            "name": "HLTIsoMu24eta2p1IterTrk02.toPt", 
+                            "size": 13585255, 
+                            "zipped_bytes": 3793974
+                        }
+                    }, 
+                    "name": "HLTIsoMu24eta2p1IterTrk02", 
+                    "size": 56446697, 
+                    "zipped_bytes": 16759038
+                }, 
+                "Jets": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Jets.BestVertexTrackAssociationFactor": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.BestVertexTrackAssociationFactor", 
+                            "size": 47998080, 
+                            "zipped_bytes": 3392185
+                        }, 
+                        "Jets.BestVertexTrackAssociationIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.BestVertexTrackAssociationIndex", 
+                            "size": 30263891, 
+                            "zipped_bytes": 3226455
+                        }, 
+                        "Jets.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.Charge", 
+                            "size": 47990358, 
+                            "zipped_bytes": 24004563
+                        }, 
+                        "Jets.ChargedEmEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedEmEnergyFraction", 
+                            "size": 47995407, 
+                            "zipped_bytes": 8579477
+                        }, 
+                        "Jets.ChargedEmEnergyFractionRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedEmEnergyFractionRAW", 
+                            "size": 47996298, 
+                            "zipped_bytes": 8581601
+                        }, 
+                        "Jets.ChargedHadronEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedHadronEnergyFraction", 
+                            "size": 47996595, 
+                            "zipped_bytes": 22890199
+                        }, 
+                        "Jets.ChargedHadronEnergyFractionRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedHadronEnergyFractionRAW", 
+                            "size": 47997486, 
+                            "zipped_bytes": 22896070
+                        }, 
+                        "Jets.ChargedHadronMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedHadronMultiplicity", 
+                            "size": 30262973, 
+                            "zipped_bytes": 7815692
+                        }, 
+                        "Jets.ChargedMuEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedMuEnergyFraction", 
+                            "size": 47995407, 
+                            "zipped_bytes": 8214010
+                        }, 
+                        "Jets.ChargedMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ChargedMultiplicity", 
+                            "size": 30262055, 
+                            "zipped_bytes": 7804055
+                        }, 
+                        "Jets.ClosestVertex3DIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ClosestVertex3DIndex", 
+                            "size": 30262208, 
+                            "zipped_bytes": 3224574
+                        }, 
+                        "Jets.ClosestVertexWeighted3DSeparation": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ClosestVertexWeighted3DSeparation", 
+                            "size": 47998377, 
+                            "zipped_bytes": 3391488
+                        }, 
+                        "Jets.ClosestVertexWeightedXYSeparation": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ClosestVertexWeightedXYSeparation", 
+                            "size": 47998377, 
+                            "zipped_bytes": 3391469
+                        }, 
+                        "Jets.ClosestVertexWeightedZSeparation": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ClosestVertexWeightedZSeparation", 
+                            "size": 47998080, 
+                            "zipped_bytes": 3391316
+                        }, 
+                        "Jets.ClosestVertexXYIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ClosestVertexXYIndex", 
+                            "size": 30262208, 
+                            "zipped_bytes": 3224574
+                        }, 
+                        "Jets.ClosestVertexZIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ClosestVertexZIndex", 
+                            "size": 30262055, 
+                            "zipped_bytes": 3223734
+                        }, 
+                        "Jets.ElectronEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ElectronEnergyFraction", 
+                            "size": 47995110, 
+                            "zipped_bytes": 11138218
+                        }, 
+                        "Jets.ElectronMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.ElectronMultiplicity", 
+                            "size": 30262208, 
+                            "zipped_bytes": 4373048
+                        }, 
+                        "Jets.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.Energy", 
+                            "size": 47990358, 
+                            "zipped_bytes": 37467739
+                        }, 
+                        "Jets.EnergyRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.EnergyRAW", 
+                            "size": 47991249, 
+                            "zipped_bytes": 37454922
+                        }, 
+                        "Jets.JEC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.JEC", 
+                            "size": 47989467, 
+                            "zipped_bytes": 33916169
+                        }, 
+                        "Jets.JECUnc": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.JECUnc", 
+                            "size": 47990358, 
+                            "zipped_bytes": 3385691
+                        }, 
+                        "Jets.L1OffJEC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.L1OffJEC", 
+                            "size": 47990952, 
+                            "zipped_bytes": 36082775
+                        }, 
+                        "Jets.L2L3ResJEC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.L2L3ResJEC", 
+                            "size": 47991546, 
+                            "zipped_bytes": 5064505
+                        }, 
+                        "Jets.L2RelJEC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.L2RelJEC", 
+                            "size": 47990952, 
+                            "zipped_bytes": 35619315
+                        }, 
+                        "Jets.L3AbsJEC": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.L3AbsJEC", 
+                            "size": 47990952, 
+                            "zipped_bytes": 3384990
+                        }, 
+                        "Jets.Mass": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.Mass", 
+                            "size": 47989764, 
+                            "zipped_bytes": 23193838
+                        }, 
+                        "Jets.MuonEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.MuonEnergyFraction", 
+                            "size": 47993922, 
+                            "zipped_bytes": 8214273
+                        }, 
+                        "Jets.MuonMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.MuonMultiplicity", 
+                            "size": 30261596, 
+                            "zipped_bytes": 4325164
+                        }, 
+                        "Jets.NConstituents": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NConstituents", 
+                            "size": 30261137, 
+                            "zipped_bytes": 8472039
+                        }, 
+                        "Jets.NeutralEmEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NeutralEmEnergyFraction", 
+                            "size": 47995407, 
+                            "zipped_bytes": 23610411
+                        }, 
+                        "Jets.NeutralEmEnergyFractionRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NeutralEmEnergyFractionRAW", 
+                            "size": 47996298, 
+                            "zipped_bytes": 23622065
+                        }, 
+                        "Jets.NeutralHadronEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NeutralHadronEnergyFraction", 
+                            "size": 47996595, 
+                            "zipped_bytes": 18006220
+                        }, 
+                        "Jets.NeutralHadronEnergyFractionRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NeutralHadronEnergyFractionRAW", 
+                            "size": 47997486, 
+                            "zipped_bytes": 18011795
+                        }, 
+                        "Jets.NeutralHadronMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NeutralHadronMultiplicity", 
+                            "size": 30262973, 
+                            "zipped_bytes": 5809911
+                        }, 
+                        "Jets.NeutralMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.NeutralMultiplicity", 
+                            "size": 30262055, 
+                            "zipped_bytes": 7730174
+                        }, 
+                        "Jets.PartonFlavour": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PartonFlavour", 
+                            "size": 30261137, 
+                            "zipped_bytes": 6759617
+                        }, 
+                        "Jets.PassLooseID": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PassLooseID", 
+                            "size": 30260831, 
+                            "zipped_bytes": 3321771
+                        }, 
+                        "Jets.PassTightID": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PassTightID", 
+                            "size": 30260831, 
+                            "zipped_bytes": 3383674
+                        }, 
+                        "Jets.PhotonEnergyFraction": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PhotonEnergyFraction", 
+                            "size": 47994516, 
+                            "zipped_bytes": 23372387
+                        }, 
+                        "Jets.PhotonMultiplicity": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PhotonMultiplicity", 
+                            "size": 30261902, 
+                            "zipped_bytes": 7644833
+                        }, 
+                        "Jets.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.Px", 
+                            "size": 47989170, 
+                            "zipped_bytes": 37986571
+                        }, 
+                        "Jets.PxRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PxRAW", 
+                            "size": 47990061, 
+                            "zipped_bytes": 37992818
+                        }, 
+                        "Jets.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.Py", 
+                            "size": 47989170, 
+                            "zipped_bytes": 37988047
+                        }, 
+                        "Jets.PyRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PyRAW", 
+                            "size": 47990061, 
+                            "zipped_bytes": 37993920
+                        }, 
+                        "Jets.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.Pz", 
+                            "size": 47989170, 
+                            "zipped_bytes": 38063211
+                        }, 
+                        "Jets.PzRAW": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.PzRAW", 
+                            "size": 47990061, 
+                            "zipped_bytes": 38060096
+                        }, 
+                        "Jets.combinedInclusiveSecondaryVertexV2BJetTags": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.combinedInclusiveSecondaryVertexV2BJetTags", 
+                            "size": 48001050, 
+                            "zipped_bytes": 21659007
+                        }, 
+                        "Jets.passesMediumCSV": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets", 
+                            "name": "Jets.passesMediumCSV", 
+                            "size": 16991962, 
+                            "zipped_bytes": 4189111
+                        }
+                    }, 
+                    "name": "Jets", 
+                    "size": 2054710162, 
+                    "zipped_bytes": 784549787
+                }, 
+                "Jets.GenJet": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Jets.GenJet.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Energy", 
+                            "size": 47992437, 
+                            "zipped_bytes": 37101382
+                        }, 
+                        "Jets.GenJet.Eta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Eta", 
+                            "size": 47991546, 
+                            "zipped_bytes": 24958118
+                        }, 
+                        "Jets.GenJet.Phi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Phi", 
+                            "size": 47991546, 
+                            "zipped_bytes": 24875867
+                        }, 
+                        "Jets.GenJet.Pt": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Pt", 
+                            "size": 47991249, 
+                            "zipped_bytes": 23128215
+                        }, 
+                        "Jets.GenJet.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Px", 
+                            "size": 47991249, 
+                            "zipped_bytes": 37652351
+                        }, 
+                        "Jets.GenJet.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Py", 
+                            "size": 47991249, 
+                            "zipped_bytes": 37653276
+                        }, 
+                        "Jets.GenJet.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Jets.GenJet", 
+                            "name": "Jets.GenJet.Pz", 
+                            "size": 47991249, 
+                            "zipped_bytes": 37717983
+                        }
+                    }, 
+                    "name": "Jets.GenJet", 
+                    "size": 335940525, 
+                    "zipped_bytes": 223087192
+                }, 
+                "MET": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "MET.ET": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "MET", 
+                            "name": "MET.ET", 
+                            "size": 7200610, 
+                            "zipped_bytes": 3901980
+                        }, 
+                        "MET.Ex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "MET", 
+                            "name": "MET.Ex", 
+                            "size": 7200610, 
+                            "zipped_bytes": 6913331
+                        }, 
+                        "MET.Ey": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "MET", 
+                            "name": "MET.Ey", 
+                            "size": 7200610, 
+                            "zipped_bytes": 6913217
+                        }, 
+                        "MET.Phi": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "MET", 
+                            "name": "MET.Phi", 
+                            "size": 7201054, 
+                            "zipped_bytes": 4176818
+                        }, 
+                        "MET.Significance": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "MET", 
+                            "name": "MET.Significance", 
+                            "size": 7205050, 
+                            "zipped_bytes": 63958
+                        }
+                    }, 
+                    "name": "MET", 
+                    "size": 36007934, 
+                    "zipped_bytes": 21969304
+                }, 
+                "Muons": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Muons.BeamSpotDXY": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.BeamSpotDXY", 
+                            "size": 32181540, 
+                            "zipped_bytes": 22752167
+                        }, 
+                        "Muons.BeamSpotDXYError": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.BeamSpotDXYError", 
+                            "size": 32182305, 
+                            "zipped_bytes": 22289742
+                        }, 
+                        "Muons.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.Charge", 
+                            "size": 22378391, 
+                            "zipped_bytes": 4176336
+                        }, 
+                        "Muons.EcalIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.EcalIso03", 
+                            "size": 32181234, 
+                            "zipped_bytes": 13967507
+                        }, 
+                        "Muons.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.Energy", 
+                            "size": 32180775, 
+                            "zipped_bytes": 22340050
+                        }, 
+                        "Muons.HOIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.HOIso03", 
+                            "size": 32180928, 
+                            "zipped_bytes": 3376060
+                        }, 
+                        "Muons.HcalIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.HcalIso03", 
+                            "size": 32181234, 
+                            "zipped_bytes": 14064113
+                        }, 
+                        "Muons.NumberOfMatchedStations": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.NumberOfMatchedStations", 
+                            "size": 22383440, 
+                            "zipped_bytes": 4565675
+                        }, 
+                        "Muons.NumberOfMatches": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.NumberOfMatches", 
+                            "size": 22381064, 
+                            "zipped_bytes": 4661497
+                        }, 
+                        "Muons.PFRelIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PFRelIso03", 
+                            "size": 32181387, 
+                            "zipped_bytes": 19965138
+                        }, 
+                        "Muons.PFRelIso03DeltaBeta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PFRelIso03DeltaBeta", 
+                            "size": 32182764, 
+                            "zipped_bytes": 18729884
+                        }, 
+                        "Muons.PFRelIso04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PFRelIso04", 
+                            "size": 32181387, 
+                            "zipped_bytes": 21645444
+                        }, 
+                        "Muons.PFRelIso04DeltaBeta": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PFRelIso04DeltaBeta", 
+                            "size": 32182764, 
+                            "zipped_bytes": 20232320
+                        }, 
+                        "Muons.PassID": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PassID", 
+                            "size": 15015261, 
+                            "zipped_bytes": 3744941
+                        }, 
+                        "Muons.PrimaryVertexDXY": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PrimaryVertexDXY", 
+                            "size": 32182305, 
+                            "zipped_bytes": 22441258
+                        }, 
+                        "Muons.PrimaryVertexDXYError": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.PrimaryVertexDXYError", 
+                            "size": 32183070, 
+                            "zipped_bytes": 22331915
+                        }, 
+                        "Muons.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.Px", 
+                            "size": 32180163, 
+                            "zipped_bytes": 22910896
+                        }, 
+                        "Muons.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.Py", 
+                            "size": 32180163, 
+                            "zipped_bytes": 22911666
+                        }, 
+                        "Muons.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.Pz", 
+                            "size": 32180163, 
+                            "zipped_bytes": 22724499
+                        }, 
+                        "Muons.RelIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.RelIso03", 
+                            "size": 32181081, 
+                            "zipped_bytes": 22347624
+                        }, 
+                        "Muons.TrkIso03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.TrkIso03", 
+                            "size": 32181081, 
+                            "zipped_bytes": 11206807
+                        }, 
+                        "Muons.isGlobalMuon": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.isGlobalMuon", 
+                            "size": 15017055, 
+                            "zipped_bytes": 3770179
+                        }, 
+                        "Muons.isPFMuon": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.isPFMuon", 
+                            "size": 15015859, 
+                            "zipped_bytes": 3696688
+                        }, 
+                        "Muons.isTrackerMuon": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.isTrackerMuon", 
+                            "size": 15017354, 
+                            "zipped_bytes": 3356711
+                        }, 
+                        "Muons.sumChargedHadronPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumChargedHadronPt03", 
+                            "size": 32182917, 
+                            "zipped_bytes": 11725076
+                        }, 
+                        "Muons.sumChargedHadronPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumChargedHadronPt04", 
+                            "size": 32182917, 
+                            "zipped_bytes": 12844987
+                        }, 
+                        "Muons.sumNeutralHadronPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumNeutralHadronPt03", 
+                            "size": 32182917, 
+                            "zipped_bytes": 7908323
+                        }, 
+                        "Muons.sumNeutralHadronPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumNeutralHadronPt04", 
+                            "size": 32182917, 
+                            "zipped_bytes": 9589512
+                        }, 
+                        "Muons.sumPUPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumPUPt03", 
+                            "size": 32181234, 
+                            "zipped_bytes": 14147314
+                        }, 
+                        "Muons.sumPUPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumPUPt04", 
+                            "size": 32181234, 
+                            "zipped_bytes": 14680870
+                        }, 
+                        "Muons.sumPhotonPt03": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumPhotonPt03", 
+                            "size": 32181846, 
+                            "zipped_bytes": 11218253
+                        }, 
+                        "Muons.sumPhotonPt04": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons", 
+                            "name": "Muons.sumPhotonPt04", 
+                            "size": 32181846, 
+                            "zipped_bytes": 12390700
+                        }
+                    }, 
+                    "name": "Muons", 
+                    "size": 931750596, 
+                    "zipped_bytes": 448714152
+                }, 
+                "Muons.GlobalTrack": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Muons.GlobalTrack.NormalizedChi2": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.GlobalTrack", 
+                            "name": "Muons.GlobalTrack.NormalizedChi2", 
+                            "size": 32183835, 
+                            "zipped_bytes": 8673382
+                        }, 
+                        "Muons.GlobalTrack.NumberOfValidMuonHits": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.GlobalTrack", 
+                            "name": "Muons.GlobalTrack.NumberOfValidMuonHits", 
+                            "size": 22386410, 
+                            "zipped_bytes": 5427594
+                        }
+                    }, 
+                    "name": "Muons.GlobalTrack", 
+                    "size": 54570245, 
+                    "zipped_bytes": 14100976
+                }, 
+                "Muons.InnerTrack": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Muons.InnerTrack.NumberOfValidHits": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.InnerTrack", 
+                            "name": "Muons.InnerTrack.NumberOfValidHits", 
+                            "size": 22384925, 
+                            "zipped_bytes": 5879867
+                        }, 
+                        "Muons.InnerTrack.NumberOfValidPixelHits": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.InnerTrack", 
+                            "name": "Muons.InnerTrack.NumberOfValidPixelHits", 
+                            "size": 22386410, 
+                            "zipped_bytes": 4778098
+                        }, 
+                        "Muons.InnerTrack.PixelLayersWithMeasurement": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.InnerTrack", 
+                            "name": "Muons.InnerTrack.PixelLayersWithMeasurement", 
+                            "size": 22387598, 
+                            "zipped_bytes": 4526502
+                        }, 
+                        "Muons.InnerTrack.TrackerLayersWithMeasurement": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.InnerTrack", 
+                            "name": "Muons.InnerTrack.TrackerLayersWithMeasurement", 
+                            "size": 22388192, 
+                            "zipped_bytes": 5471838
+                        }
+                    }, 
+                    "name": "Muons.InnerTrack", 
+                    "size": 89547125, 
+                    "zipped_bytes": 20656305
+                }, 
+                "Muons.Track": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Muons.Track.D0": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Track", 
+                            "name": "Muons.Track.D0", 
+                            "size": 32181081, 
+                            "zipped_bytes": 22749073
+                        }, 
+                        "Muons.Track.D0Error": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Track", 
+                            "name": "Muons.Track.D0Error", 
+                            "size": 32181846, 
+                            "zipped_bytes": 22337542
+                        }, 
+                        "Muons.Track.Dz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Track", 
+                            "name": "Muons.Track.Dz", 
+                            "size": 32181081, 
+                            "zipped_bytes": 22862365
+                        }, 
+                        "Muons.Track.DzError": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Track", 
+                            "name": "Muons.Track.DzError", 
+                            "size": 32181846, 
+                            "zipped_bytes": 22357974
+                        }, 
+                        "Muons.Track.ValidFractionOfHits": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Track", 
+                            "name": "Muons.Track.ValidFractionOfHits", 
+                            "size": 32183682, 
+                            "zipped_bytes": 6025178
+                        }
+                    }, 
+                    "name": "Muons.Track", 
+                    "size": 160909536, 
+                    "zipped_bytes": 96332132
+                }, 
+                "Muons.Vertex": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Muons.Vertex.DistZ": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Vertex", 
+                            "name": "Muons.Vertex.DistZ", 
+                            "size": 32181693, 
+                            "zipped_bytes": 22745337
+                        }, 
+                        "Muons.Vertex.Index": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Muons.Vertex", 
+                            "name": "Muons.Vertex.Index", 
+                            "size": 22380173, 
+                            "zipped_bytes": 5132610
+                        }
+                    }, 
+                    "name": "Muons.Vertex", 
+                    "size": 54561866, 
+                    "zipped_bytes": 27877947
+                }, 
+                "PseudoTopJets": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "PseudoTopJets.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.Charge", 
+                            "size": 39623407, 
+                            "zipped_bytes": 3253609
+                        }, 
+                        "PseudoTopJets.EMF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.EMF", 
+                            "size": 39622948, 
+                            "zipped_bytes": 29330347
+                        }, 
+                        "PseudoTopJets.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.Energy", 
+                            "size": 39623407, 
+                            "zipped_bytes": 29381200
+                        }, 
+                        "PseudoTopJets.HADF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.HADF", 
+                            "size": 39623101, 
+                            "zipped_bytes": 29279654
+                        }, 
+                        "PseudoTopJets.Mass": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.Mass", 
+                            "size": 39623101, 
+                            "zipped_bytes": 29336832
+                        }, 
+                        "PseudoTopJets.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.Px", 
+                            "size": 39622795, 
+                            "zipped_bytes": 29793370
+                        }, 
+                        "PseudoTopJets.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.Py", 
+                            "size": 39622795, 
+                            "zipped_bytes": 29792780
+                        }, 
+                        "PseudoTopJets.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopJets", 
+                            "name": "PseudoTopJets.Pz", 
+                            "size": 39622795, 
+                            "zipped_bytes": 29861016
+                        }
+                    }, 
+                    "name": "PseudoTopJets", 
+                    "size": 316984349, 
+                    "zipped_bytes": 210028808
+                }, 
+                "PseudoTopLeptons": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "PseudoTopLeptons.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.Charge", 
+                            "size": 17068670, 
+                            "zipped_bytes": 2815615
+                        }, 
+                        "PseudoTopLeptons.EMF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.EMF", 
+                            "size": 17067773, 
+                            "zipped_bytes": 5314389
+                        }, 
+                        "PseudoTopLeptons.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.Energy", 
+                            "size": 17068670, 
+                            "zipped_bytes": 7438757
+                        }, 
+                        "PseudoTopLeptons.HADF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.HADF", 
+                            "size": 17068072, 
+                            "zipped_bytes": 2621216
+                        }, 
+                        "PseudoTopLeptons.Mass": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.Mass", 
+                            "size": 17068072, 
+                            "zipped_bytes": 6255012
+                        }, 
+                        "PseudoTopLeptons.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.Px", 
+                            "size": 17067474, 
+                            "zipped_bytes": 7597430
+                        }, 
+                        "PseudoTopLeptons.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.Py", 
+                            "size": 17067474, 
+                            "zipped_bytes": 7597440
+                        }, 
+                        "PseudoTopLeptons.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopLeptons", 
+                            "name": "PseudoTopLeptons.Pz", 
+                            "size": 17067474, 
+                            "zipped_bytes": 7618887
+                        }
+                    }, 
+                    "name": "PseudoTopLeptons", 
+                    "size": 136543679, 
+                    "zipped_bytes": 47258746
+                }, 
+                "PseudoTopNeutrinos": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "PseudoTopNeutrinos.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Charge", 
+                            "size": 20091580, 
+                            "zipped_bytes": 2544380
+                        }, 
+                        "PseudoTopNeutrinos.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Energy", 
+                            "size": 20091580, 
+                            "zipped_bytes": 10394799
+                        }, 
+                        "PseudoTopNeutrinos.Mass": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Mass", 
+                            "size": 20090984, 
+                            "zipped_bytes": 8293993
+                        }, 
+                        "PseudoTopNeutrinos.MotherIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.MotherIndex", 
+                            "size": 16329695, 
+                            "zipped_bytes": 2501964
+                        }, 
+                        "PseudoTopNeutrinos.NumDaught": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.NumDaught", 
+                            "size": 16329097, 
+                            "zipped_bytes": 2501209
+                        }, 
+                        "PseudoTopNeutrinos.PdgId": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.PdgId", 
+                            "size": 16327901, 
+                            "zipped_bytes": 3185365
+                        }, 
+                        "PseudoTopNeutrinos.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Px", 
+                            "size": 20090388, 
+                            "zipped_bytes": 10584356
+                        }, 
+                        "PseudoTopNeutrinos.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Py", 
+                            "size": 20090388, 
+                            "zipped_bytes": 10583620
+                        }, 
+                        "PseudoTopNeutrinos.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Pz", 
+                            "size": 20090388, 
+                            "zipped_bytes": 10595734
+                        }, 
+                        "PseudoTopNeutrinos.Status": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.Status", 
+                            "size": 16328200, 
+                            "zipped_bytes": 2499677
+                        }, 
+                        "PseudoTopNeutrinos.VX": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.VX", 
+                            "size": 20090388, 
+                            "zipped_bytes": 2543464
+                        }, 
+                        "PseudoTopNeutrinos.VY": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.VY", 
+                            "size": 20090388, 
+                            "zipped_bytes": 2543464
+                        }, 
+                        "PseudoTopNeutrinos.VZ": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTopNeutrinos", 
+                            "name": "PseudoTopNeutrinos.VZ", 
+                            "size": 20090388, 
+                            "zipped_bytes": 2543464
+                        }
+                    }, 
+                    "name": "PseudoTopNeutrinos", 
+                    "size": 246131365, 
+                    "zipped_bytes": 71315489
+                }, 
+                "PseudoTops": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "PseudoTops.Charge": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Charge", 
+                            "size": 42551876, 
+                            "zipped_bytes": 2951228
+                        }, 
+                        "PseudoTops.Energy": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Energy", 
+                            "size": 42551876, 
+                            "zipped_bytes": 31519293
+                        }, 
+                        "PseudoTops.Mass": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Mass", 
+                            "size": 42551570, 
+                            "zipped_bytes": 30364123
+                        }, 
+                        "PseudoTops.MotherIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.MotherIndex", 
+                            "size": 27549681, 
+                            "zipped_bytes": 2684674
+                        }, 
+                        "PseudoTops.NumDaught": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.NumDaught", 
+                            "size": 27549375, 
+                            "zipped_bytes": 2685720
+                        }, 
+                        "PseudoTops.PdgId": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.PdgId", 
+                            "size": 27548763, 
+                            "zipped_bytes": 3006227
+                        }, 
+                        "PseudoTops.Px": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Px", 
+                            "size": 42551264, 
+                            "zipped_bytes": 32016655
+                        }, 
+                        "PseudoTops.Py": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Py", 
+                            "size": 42551264, 
+                            "zipped_bytes": 32016958
+                        }, 
+                        "PseudoTops.Pz": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Pz", 
+                            "size": 42551264, 
+                            "zipped_bytes": 32031645
+                        }, 
+                        "PseudoTops.Status": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.Status", 
+                            "size": 27548916, 
+                            "zipped_bytes": 2684863
+                        }, 
+                        "PseudoTops.VX": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.VX", 
+                            "size": 42551264, 
+                            "zipped_bytes": 2845811
+                        }, 
+                        "PseudoTops.VY": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.VY", 
+                            "size": 42551264, 
+                            "zipped_bytes": 2845811
+                        }, 
+                        "PseudoTops.VZ": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "PseudoTops", 
+                            "name": "PseudoTops.VZ", 
+                            "size": 42551264, 
+                            "zipped_bytes": 2845811
+                        }
+                    }, 
+                    "name": "PseudoTops", 
+                    "size": 493159641, 
+                    "zipped_bytes": 180498819
+                }, 
+                "TopPairElectronPlusJetsConversionSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "TopPairElectronPlusJetsConversionSelection.FullSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsConversionSelection", 
+                            "name": "TopPairElectronPlusJetsConversionSelection.FullSelection", 
+                            "size": 1146094, 
+                            "zipped_bytes": 257306
+                        }, 
+                        "TopPairElectronPlusJetsConversionSelection.NumberOfBtags": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsConversionSelection", 
+                            "name": "TopPairElectronPlusJetsConversionSelection.NumberOfBtags", 
+                            "size": 3726336, 
+                            "zipped_bytes": 525035
+                        }, 
+                        "TopPairElectronPlusJetsConversionSelection.NumberOfJets": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsConversionSelection", 
+                            "name": "TopPairElectronPlusJetsConversionSelection.NumberOfJets", 
+                            "size": 3725310, 
+                            "zipped_bytes": 694452
+                        }, 
+                        "TopPairElectronPlusJetsConversionSelection.cleanedBJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsConversionSelection", 
+                            "name": "TopPairElectronPlusJetsConversionSelection.cleanedBJetIndex", 
+                            "size": 16594494, 
+                            "zipped_bytes": 3552098
+                        }, 
+                        "TopPairElectronPlusJetsConversionSelection.cleanedJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsConversionSelection", 
+                            "name": "TopPairElectronPlusJetsConversionSelection.cleanedJetIndex", 
+                            "size": 28514269, 
+                            "zipped_bytes": 3671377
+                        }, 
+                        "TopPairElectronPlusJetsConversionSelection.signalElectronIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsConversionSelection", 
+                            "name": "TopPairElectronPlusJetsConversionSelection.signalElectronIndex", 
+                            "size": 3732492, 
+                            "zipped_bytes": 167612
+                        }
+                    }, 
+                    "name": "TopPairElectronPlusJetsConversionSelection", 
+                    "size": 57438995, 
+                    "zipped_bytes": 8867880
+                }, 
+                "TopPairElectronPlusJetsQCDSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "TopPairElectronPlusJetsQCDSelection.FullSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsQCDSelection", 
+                            "name": "TopPairElectronPlusJetsQCDSelection.FullSelection", 
+                            "size": 1133795, 
+                            "zipped_bytes": 322592
+                        }, 
+                        "TopPairElectronPlusJetsQCDSelection.NumberOfBtags": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsQCDSelection", 
+                            "name": "TopPairElectronPlusJetsQCDSelection.NumberOfBtags", 
+                            "size": 3719154, 
+                            "zipped_bytes": 517557
+                        }, 
+                        "TopPairElectronPlusJetsQCDSelection.NumberOfJets": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsQCDSelection", 
+                            "name": "TopPairElectronPlusJetsQCDSelection.NumberOfJets", 
+                            "size": 3718128, 
+                            "zipped_bytes": 687105
+                        }, 
+                        "TopPairElectronPlusJetsQCDSelection.cleanedBJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsQCDSelection", 
+                            "name": "TopPairElectronPlusJetsQCDSelection.cleanedBJetIndex", 
+                            "size": 16567509, 
+                            "zipped_bytes": 3525588
+                        }, 
+                        "TopPairElectronPlusJetsQCDSelection.cleanedJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsQCDSelection", 
+                            "name": "TopPairElectronPlusJetsQCDSelection.cleanedJetIndex", 
+                            "size": 27877534, 
+                            "zipped_bytes": 3847625
+                        }, 
+                        "TopPairElectronPlusJetsQCDSelection.signalElectronIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsQCDSelection", 
+                            "name": "TopPairElectronPlusJetsQCDSelection.signalElectronIndex", 
+                            "size": 3725310, 
+                            "zipped_bytes": 198808
+                        }
+                    }, 
+                    "name": "TopPairElectronPlusJetsQCDSelection", 
+                    "size": 56741430, 
+                    "zipped_bytes": 9099275
+                }, 
+                "TopPairElectronPlusJetsSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "TopPairElectronPlusJetsSelection.FullSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsSelection", 
+                            "name": "TopPairElectronPlusJetsSelection.FullSelection", 
+                            "size": 1128524, 
+                            "zipped_bytes": 303857
+                        }, 
+                        "TopPairElectronPlusJetsSelection.NumberOfBtags": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsSelection", 
+                            "name": "TopPairElectronPlusJetsSelection.NumberOfBtags", 
+                            "size": 3716076, 
+                            "zipped_bytes": 514396
+                        }, 
+                        "TopPairElectronPlusJetsSelection.NumberOfJets": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsSelection", 
+                            "name": "TopPairElectronPlusJetsSelection.NumberOfJets", 
+                            "size": 3715050, 
+                            "zipped_bytes": 684813
+                        }, 
+                        "TopPairElectronPlusJetsSelection.cleanedBJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsSelection", 
+                            "name": "TopPairElectronPlusJetsSelection.cleanedBJetIndex", 
+                            "size": 16584596, 
+                            "zipped_bytes": 3521943
+                        }, 
+                        "TopPairElectronPlusJetsSelection.cleanedJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsSelection", 
+                            "name": "TopPairElectronPlusJetsSelection.cleanedJetIndex", 
+                            "size": 27717439, 
+                            "zipped_bytes": 3879650
+                        }, 
+                        "TopPairElectronPlusJetsSelection.signalElectronIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairElectronPlusJetsSelection", 
+                            "name": "TopPairElectronPlusJetsSelection.signalElectronIndex", 
+                            "size": 3722232, 
+                            "zipped_bytes": 195282
+                        }
+                    }, 
+                    "name": "TopPairElectronPlusJetsSelection", 
+                    "size": 56583917, 
+                    "zipped_bytes": 9099941
+                }, 
+                "TopPairMuonPlusJetsQCDSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "TopPairMuonPlusJetsQCDSelection.FullSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsQCDSelection", 
+                            "name": "TopPairMuonPlusJetsQCDSelection.FullSelection", 
+                            "size": 1126767, 
+                            "zipped_bytes": 366426
+                        }, 
+                        "TopPairMuonPlusJetsQCDSelection.NumberOfBtags": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsQCDSelection", 
+                            "name": "TopPairMuonPlusJetsQCDSelection.NumberOfBtags", 
+                            "size": 3715050, 
+                            "zipped_bytes": 513058
+                        }, 
+                        "TopPairMuonPlusJetsQCDSelection.NumberOfJets": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsQCDSelection", 
+                            "name": "TopPairMuonPlusJetsQCDSelection.NumberOfJets", 
+                            "size": 3714024, 
+                            "zipped_bytes": 681354
+                        }, 
+                        "TopPairMuonPlusJetsQCDSelection.cleanedBJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsQCDSelection", 
+                            "name": "TopPairMuonPlusJetsQCDSelection.cleanedBJetIndex", 
+                            "size": 16465329, 
+                            "zipped_bytes": 3500380
+                        }, 
+                        "TopPairMuonPlusJetsQCDSelection.cleanedJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsQCDSelection", 
+                            "name": "TopPairMuonPlusJetsQCDSelection.cleanedJetIndex", 
+                            "size": 27525642, 
+                            "zipped_bytes": 3935161
+                        }, 
+                        "TopPairMuonPlusJetsQCDSelection.signalMuonIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsQCDSelection", 
+                            "name": "TopPairMuonPlusJetsQCDSelection.signalMuonIndex", 
+                            "size": 3717102, 
+                            "zipped_bytes": 185974
+                        }
+                    }, 
+                    "name": "TopPairMuonPlusJetsQCDSelection", 
+                    "size": 56263914, 
+                    "zipped_bytes": 9182353
+                }, 
+                "TopPairMuonPlusJetsSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "TopPairMuonPlusJetsSelection.FullSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsSelection", 
+                            "name": "TopPairMuonPlusJetsSelection.FullSelection", 
+                            "size": 1121367, 
+                            "zipped_bytes": 297554
+                        }, 
+                        "TopPairMuonPlusJetsSelection.NumberOfBtags": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsSelection", 
+                            "name": "TopPairMuonPlusJetsSelection.NumberOfBtags", 
+                            "size": 3711972, 
+                            "zipped_bytes": 510615
+                        }, 
+                        "TopPairMuonPlusJetsSelection.NumberOfJets": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsSelection", 
+                            "name": "TopPairMuonPlusJetsSelection.NumberOfJets", 
+                            "size": 3710946, 
+                            "zipped_bytes": 680985
+                        }, 
+                        "TopPairMuonPlusJetsSelection.cleanedBJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsSelection", 
+                            "name": "TopPairMuonPlusJetsSelection.cleanedBJetIndex", 
+                            "size": 16588028, 
+                            "zipped_bytes": 3520068
+                        }, 
+                        "TopPairMuonPlusJetsSelection.cleanedJetIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsSelection", 
+                            "name": "TopPairMuonPlusJetsSelection.cleanedJetIndex", 
+                            "size": 27641915, 
+                            "zipped_bytes": 3893712
+                        }, 
+                        "TopPairMuonPlusJetsSelection.signalMuonIndex": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "TopPairMuonPlusJetsSelection", 
+                            "name": "TopPairMuonPlusJetsSelection.signalMuonIndex", 
+                            "size": 3714024, 
+                            "zipped_bytes": 172766
+                        }
+                    }, 
+                    "name": "TopPairMuonPlusJetsSelection", 
+                    "size": 56488252, 
+                    "zipped_bytes": 9075700
+                }, 
+                "Vertex": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "Vertex.Chi2": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.Chi2", 
+                            "size": 136195830, 
+                            "zipped_bytes": 73647877
+                        }, 
+                        "Vertex.IsFake": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.IsFake", 
+                            "size": 74371032, 
+                            "zipped_bytes": 4104933
+                        }, 
+                        "Vertex.NDF": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.NDF", 
+                            "size": 136195385, 
+                            "zipped_bytes": 72579473
+                        }, 
+                        "Vertex.NRecoVertices": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.NRecoVertices", 
+                            "size": 3689400, 
+                            "zipped_bytes": 895507
+                        }, 
+                        "Vertex.NTracks": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.NTracks", 
+                            "size": 74371331, 
+                            "zipped_bytes": 4104295
+                        }, 
+                        "Vertex.NTracksW05": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.NTracksW05", 
+                            "size": 74372228, 
+                            "zipped_bytes": 4106113
+                        }, 
+                        "Vertex.Rho": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.Rho", 
+                            "size": 136195385, 
+                            "zipped_bytes": 116192561
+                        }, 
+                        "Vertex.X": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.X", 
+                            "size": 136194495, 
+                            "zipped_bytes": 63818880
+                        }, 
+                        "Vertex.XErr": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.XErr", 
+                            "size": 136195830, 
+                            "zipped_bytes": 121593771
+                        }, 
+                        "Vertex.Y": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.Y", 
+                            "size": 136194495, 
+                            "zipped_bytes": 62263950
+                        }, 
+                        "Vertex.YErr": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.YErr", 
+                            "size": 136195830, 
+                            "zipped_bytes": 121592678
+                        }, 
+                        "Vertex.Z": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.Z", 
+                            "size": 136194495, 
+                            "zipped_bytes": 77979234
+                        }, 
+                        "Vertex.ZErr": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "Vertex", 
+                            "name": "Vertex.ZErr", 
+                            "size": 136195830, 
+                            "zipped_bytes": 121612859
+                        }
+                    }, 
+                    "name": "Vertex", 
+                    "size": 1452561566, 
+                    "zipped_bytes": 844492131
+                }, 
+                "passesGenSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "passesGenSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "passesGenSelection", 
+                            "name": "passesGenSelection", 
+                            "size": 15867967, 
+                            "zipped_bytes": 2712810
+                        }
+                    }, 
+                    "name": "passesGenSelection", 
+                    "size": 15867967, 
+                    "zipped_bytes": 2712810
+                }, 
+                "passesOfflineSelection": {
+                    "class": "<class 'gecko.utils.ntuple.BranchInfoGroup'>", 
+                    "items": {
+                        "passesOfflineSelection": {
+                            "class": "<class 'gecko.utils.ntuple.BranchInfo'>", 
+                            "group": "passesOfflineSelection", 
+                            "name": "passesOfflineSelection", 
+                            "size": 13626495, 
+                            "zipped_bytes": 2697263
+                        }
+                    }, 
+                    "name": "passesOfflineSelection", 
+                    "size": 13626495, 
+                    "zipped_bytes": 2697263
+                }
+            }, 
+            "n_branches": 367, 
+            "n_events": 894923, 
+            "name": "tree", 
+            "size": 9519579849, 
+            "url": "nTupleTree/tree", 
+            "zipped_bytes": 4383776467
+        }
+    }
+}
