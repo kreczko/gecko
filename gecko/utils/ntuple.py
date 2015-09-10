@@ -7,9 +7,10 @@
 from __future__ import print_function
 from functools import total_ordering
 from os.path import getsize
-
+import json
 
 from rootpy.io import root_open
+from rootpy.tree import Tree
 
 #from gecko.utils.json import JSONObject
 
@@ -30,7 +31,7 @@ class FileInfo( object ):
 
     def toDict(self):
         d = {
-            'class': str(self.__class__.__name__),
+            'class': str(self.__class__),
             'name': self.name,
             'size': self.size,
             'tree_size': self.tree_size,
@@ -43,13 +44,10 @@ class FileInfo( object ):
 
 
     def toJSON(self, output_file):
-        import json
-        print(dir(json))
         output_file = open(output_file, 'w')
         output = json.dumps(self.toDict(), indent=4, sort_keys = True)
         output_file.write(output)
         output_file.close()
-        #print(self.toDict())
 
 class TreeInfo( object ):
     def __init__( self, root_tree, full_path ):
@@ -65,6 +63,7 @@ class TreeInfo( object ):
 
         for branch in branches:
             self.addBranch(branch)
+        self.compactifyGroups()
 
     def addBranch(self, root_branch):
         branch = BranchInfo( root_branch )
@@ -73,6 +72,19 @@ class TreeInfo( object ):
             self.grouped_branches[group] = BranchInfoGroup( group )
         self.grouped_branches[group].add( branch )
         self.branches.append(branch)
+
+    def compactifyGroups(self):
+        groups = self.grouped_branches.keys()
+        #for name, g in self.grouped_branches.items():
+        for group in groups:
+            gd = BranchInfo.group_delimiter
+            if gd in group:
+                i = group.split(gd)
+                parent = gd.join(i[:-1])
+                g = self.grouped_branches[group]
+                self.grouped_branches[parent].addGroup(g)
+                self.grouped_branches.pop(group)
+
 
     def toDict(self):
         d = {
@@ -85,11 +97,12 @@ class TreeInfo( object ):
             'zipped_bytes': self.zipped_bytes,
         }
         d['collections'] = {}
-        for branch in self.branches:
-            group = branch.group
-            if not d['collections'].has_key(branch.group):
-                d['collections'][group] = self.grouped_branches[group].toDict()
-
+        d['items'] = {}
+        for group, info in self.grouped_branches.items():
+            if info.is_collection():
+                d['collections'][group] = info.toDict()
+            else:
+                d['items'][group] = info.toDict()
         return d
 
     @staticmethod
@@ -110,16 +123,16 @@ class BranchInfo( object ):
             self.name = 'unknown'
             self.size = 0
             self.zipped_bytes = 0
+            self.type = 'unknown'
         else:
             self.name = root_branch.GetName()
             self.size = root_branch.GetTotalSize()
             self.zipped_bytes = root_branch.GetZipBytes()
+            self.type = Tree.branch_type(root_branch)
 
         self.subitems = {}
         if self.has_group():
-            token = self.name.split( self.group_delimiter )
-            if len(token) > 2: # more than one group!
-                pass
+            token = self.name.split( BranchInfo.group_delimiter )
             self.group = '.'.join(token[:-1])
         else:
             self.group = self.name
@@ -136,7 +149,7 @@ class BranchInfo( object ):
         return s.format( self.name, self.size, self.zipped_bytes )
 
     def has_group(self):
-        return self.group_delimiter in self.name
+        return BranchInfo.group_delimiter in self.name
 
     def toDict(self):
         d = {
@@ -145,6 +158,7 @@ class BranchInfo( object ):
             'size': self.size,
             'zipped_bytes': self.zipped_bytes,
             'group': self.group,
+            'type': self.type,
         }
         return d
 
@@ -157,16 +171,23 @@ class BranchInfo( object ):
         b.zipped_bytes = dictionary['zipped_bytes']
         return b
 
+    def is_collection(self):
+        return 'vector' in str(self.type)
+
 class BranchInfoGroup( object ):
     def __init__( self, name ):
         self.name = name
         self.branches = []
+        self.groups = []
 
     def add( self, branch ):
         self.branches.append( branch )
 
+    def addGroup(self, group):
+        self.groups.append(group)
+
     def branches( self ):
-        return self.branches()
+        return self.branches
 
     @property
     def size( self ):
@@ -186,6 +207,9 @@ class BranchInfoGroup( object ):
         d['items'] = {}
         for branch in self.branches:
             d['items'][branch.name] = branch.toDict()
+        d['groups'] = {}
+        for group in self.groups:
+            d['groups'][group.name] = group.toDict()
         return d
 
     @staticmethod
@@ -195,3 +219,9 @@ class BranchInfoGroup( object ):
             b = BranchInfo.fromDict(branch)
             big.add(b)
         return b
+
+    def is_subgroup(self):
+        return self.name.contains(BranchInfo.group_delimiter)
+
+    def is_collection(self):
+        return all([branch.is_collection() for branch in self.branches])
